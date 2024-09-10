@@ -1,0 +1,21 @@
+.profile-img {
+
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.banner {
+
+    background-color: beige;
+    padding: 40px;
+
+}
+
+.white-text {
+
+    color: rgb(245, 219, 149);
+}
+
+
