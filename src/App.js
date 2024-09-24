@@ -1,9 +1,11 @@
-import Profile from "./pages/profile";
+import AppRoutes from "./Routes";
+import NavigationBar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-     <Profile/>
+      <NavigationBar/>
+    <AppRoutes/>
     </div>
   );
 }

@@ -1,8 +1,9 @@
 import React from "react";
 import { Container,Row,Col,Image,Card,Button } from "react-bootstrap";
 import '../styles/Profile.css'
-
-
+import { PiGithubLogoBold } from "react-icons/pi";
+import { FiLinkedin } from "react-icons/fi";
+import { TbBrandFacebook } from "react-icons/tb";
 
 const Profile = () => {
 
@@ -23,7 +24,8 @@ const Profile = () => {
                             Sobre Mim 
                         </Card.Title>
                         <Card.Text>
-                            blablablablablablablabablablablablablablablablabalab
+                            blablablablablablablabablablablablablablablablabalab. 
+
                         </Card.Text>
                     </Card.Body>
                  </Card>
@@ -52,8 +54,26 @@ const Profile = () => {
                 </Col>
             </Row>
 
+
+        <Row className="justify-content-center mt-4">
+        <Col md={8} className="text-center">
+        <Button variant="dark" href="https://github.com" className="m-2">
+           <PiGithubLogoBold/> GitHub
+        </Button>
+        <Button variant="dark" href="https://linkedin.com" className="m-2">
+          <FiLinkedin/>  Linkedin
+        </Button>
+        <Button variant="dark" href="https://Facebook.com" className="m-2">
+         < TbBrandFacebook/>  Facebook
+        </Button>
+
+        </Col>
+
+        </Row>
            
         </Container>
+
+
     )
 }
 
